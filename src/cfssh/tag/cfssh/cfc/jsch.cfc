@@ -349,6 +349,7 @@ component {
 		if(isStruct(err)) {
 			throw(err);
 		}
+		localFile.close();
 		return exitstatus;
     }
 
